@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Head">
+      <UniqueIdentifier>{5551f5d4-d47a-415a-a040-5c3e91607414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{7e77ef41-7057-4fe2-bb9d-b06ee6cf6e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mgr">
+      <UniqueIdentifier>{c72531f1-9304-4d91-bb97-d217d3640286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj">
+      <UniqueIdentifier>{2d7a134a-6b02-485d-abc5-a3298703300f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stage">
+      <UniqueIdentifier>{9c903ca7-4d66-46c1-b980-e22f0e5b8e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet">
+      <UniqueIdentifier>{308ab02d-18ef-4015-99ba-1b15f61ae245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet\Meteo">
+      <UniqueIdentifier>{54518863-017a-47d2-bf7a-9497af3138fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\UI">
+      <UniqueIdentifier>{4c70fcc3-d104-4137-86cb-a664669ed5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Text">
+      <UniqueIdentifier>{55e9723d-c3a8-431a-b57b-36fcc64bd403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Monster">
+      <UniqueIdentifier>{0bc62f07-f7ee-45cf-a5da-a3204cf7dd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Monster\Mambo">
+      <UniqueIdentifier>{14abffa0-282c-416a-8deb-5975fb6c5af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet\PBullet">
+      <UniqueIdentifier>{891af047-0410-4f32-bab7-78664d892cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet\EBullet">
+      <UniqueIdentifier>{50924004-b10e-430b-9ffd-65a36ecec089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View">
+      <UniqueIdentifier>{6eb6f55f-b453-423b-8387-ec739327a569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Monster\Dragon">
+      <UniqueIdentifier>{3a0e09bb-922f-493d-8efd-e9e029ca6c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Item">
+      <UniqueIdentifier>{725332ec-0af2-49fd-8842-a66e842e8ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Monster\Boss">
+      <UniqueIdentifier>{744d9bef-00d6-4099-bbef-40f3cad9ea53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Warning">
+      <UniqueIdentifier>{b3f0369e-9a16-4b4b-91de-0256d50ea398}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooting.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>소스 파일\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>소스 파일\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObj.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGround.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageLogo.h">
+      <Filter>소스 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage.h">
+      <Filter>소스 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMgr.h">
+      <Filter>소스 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageOne.h">
+      <Filter>소스 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>소스 파일\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeteo.h">
+      <Filter>소스 파일\Obj\Bullet\Meteo</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>소스 파일\Obj\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageResult.h">
+      <Filter>소스 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>소스 파일\Obj\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>소스 파일\Obj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMambo.h">
+      <Filter>소스 파일\Obj\Monster\Mambo</Filter>
+    </ClInclude>
+    <ClInclude Include="CPBullet.h">
+      <Filter>소스 파일\Obj\Bullet\PBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CEBullet.h">
+      <Filter>소스 파일\Obj\Bullet\EBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoom.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CViewMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragon.h">
+      <Filter>소스 파일\Obj\Monster\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="CView.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>소스 파일\Obj\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>소스 파일\Obj\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarning.h">
+      <Filter>소스 파일\Obj\Warning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Res.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooting.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObj.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGround.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageLogo.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMgr.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageOne.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeteo.cpp">
+      <Filter>소스 파일\Obj\Bullet\Meteo</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>소스 파일\Obj\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageResult.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CText.cpp">
+      <Filter>소스 파일\Obj\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>소스 파일\Obj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CMambo.cpp">
+      <Filter>소스 파일\Obj\Monster\Mambo</Filter>
+    </ClCompile>
+    <ClCompile Include="CPBullet.cpp">
+      <Filter>소스 파일\Obj\Bullet\PBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CEBullet.cpp">
+      <Filter>소스 파일\Obj\Bullet\EBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoom.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CViewMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragon.cpp">
+      <Filter>소스 파일\Obj\Monster\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="CView.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>소스 파일\Obj\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>소스 파일\Obj\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarning.cpp">
+      <Filter>소스 파일\Obj\Warning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Shooting.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Shooting.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
